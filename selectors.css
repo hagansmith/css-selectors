@@ -31,6 +31,24 @@ a.disabled {
 	color: blue;
 }
 
-.parent div:first-of-type div:first-child div + h4 {
+.parent div:first-of-type h4:first-of-type {
 	background-color: red;
+}
+
+.parent div:first-of-type h4:last-of-type {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid pink;
+	border-radius: 33%;
+}
+
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+
+footer input[type=text] {
+	height: 25px;
 }
